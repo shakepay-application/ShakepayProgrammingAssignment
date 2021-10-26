@@ -1,0 +1,98 @@
+﻿@page "/"
+@using ShakepayApp.Services
+@inject ShakepayApiService ShakepayApiService
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Net Worth (CAD)</th>
+      <th scope="col">Type</th>
+      <th scope="col">Breakdown: BTC, ETH, CAD</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in tableData)
+     {
+    <tr>
+      <td>@item.date</td>
+      <td>$@(Decimal.Round(item.netWorth, 2))</td>
+      <td>@item.type</td>
+      <td>@item.counts</td>
+    </tr>
+     }
+  </tbody>
+</table>
+
+@code{
+    private decimal _btcRate = 74842.77m;
+    private decimal _ethRate = 5121.07m;
+    private List<(DateTime date, decimal netWorth, string type, string counts)> tableData = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        List<Transaction> data = await ShakepayApiService.GetTransactions();
+        var btcRates = await ShakepayApiService.GetBTCRates();
+        var ethRates = await ShakepayApiService.GetETHRates();
+        data = data.OrderBy(t => t.createdAt).ToList();
+        var credit = data.Where(t => t.direction == "credit");
+        var debit = data.Where(t => t.direction == "debit").Select(t => { t.amount = -1 * t.amount; return t; });
+        var conversion = data.Where(t => t.direction is null);
+        decimal cad = 0m;
+        decimal btc = 0m;
+        decimal eth = 0m;
+        var sorted = credit.Union(debit).Union(conversion).OrderBy(d => d.createdAt).ToList();
+        foreach(var t in sorted)
+        {
+            if (t.direction is null)
+            {
+                if (t.from?.currency == "BTC")
+                {
+                    btc -= t.from?.amount ?? 0m;
+                }
+                else if (t.from?.currency == "ETH")
+                {
+                    eth -= t.from?.amount ?? 0m;
+                }
+                else
+                {
+                    cad -= t.from?.amount ?? 0m;
+                }
+
+                if (t.to?.currency == "BTC")
+                {
+                    btc += t.to?.amount ?? 0m;
+                }
+                else if (t.to?.currency == "ETH")
+                {
+                    eth += t.to?.amount ?? 0m;
+                }
+                else
+                {
+                    cad += t.to?.amount ?? 0m;
+                }
+            }
+            else
+            {
+                if (t.currency == "BTC")
+                    btc += t.amount ?? 0m;
+                else if (t.currency == "ETH")
+                    eth += t.amount ?? 0m;
+                else
+                    cad +=  t.amount ?? 0m;
+            }
+            var currentNetWorth = GetCADValue(t.createdAt, btc, btcRates) + GetCADValue(t.createdAt, eth, ethRates) + (cad);
+            tableData.Add((t.createdAt, currentNetWorth, t.type, $"{btc},{eth},{cad}"));
+        }
+
+    }
+
+    public decimal GetCADValue(DateTime currentDate, Decimal numberOfTokens, List<Rate> rates)
+    {
+        if (numberOfTokens == 0)
+            return 0m;
+        var currentRate = rates.FirstOrDefault(r => r.createdAt.Date.Equals(currentDate.Date)) ?? rates.First();
+        return numberOfTokens * currentRate?.midMarketRate??0m;
+        
+    }
+}

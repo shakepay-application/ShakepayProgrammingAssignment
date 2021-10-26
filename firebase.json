@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "ShakepayApp\\bin\\Release\\net6.0\\browser-wasm\\publish\\wwwroot",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
