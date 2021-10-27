@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "ChartJs.Blazor.dll": "sha256-0ciRJps8EWsbo3zIh4fYA2+QBnZIl1lSu4aydLaQDEo=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-DAIXlsj6J9K0kfS8H0kgw\/hl\/Tvdyp9EHj2RIoOPXoA=",
       "Microsoft.AspNetCore.Components.dll": "sha256-smAyXzq1066YOtiU4NY\/UoZKz14MlEZfeuBlSMFZ0d8=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-ZBGLuueglSKM2bIzOv\/DqNHFrCQD8hNGXeqh\/ENcfh0=",
@@ -197,13 +198,13 @@
       "mscorlib.dll": "sha256-vufnB9+CYNNnVlR4\/MRJapLbBYvJ6xuMCjFhDmnPbPY=",
       "netstandard.dll": "sha256-StOrTHhWKdYtJ6nIw\/fy6MNGa9NDSMytdscAsxWoZOw=",
       "System.Private.CoreLib.dll": "sha256-z4\/pWSLqu6D+2Jx+IaEuLhAdBmVdCZ3OPQBgj8KbicY=",
-      "ShakepayApp.dll": "sha256-12h0683cosjBWx6StNClAsOwQymQ7PEtrzbT5ZlQngc="
+      "ShakepayApp.dll": "sha256-07+TII9U9B3B6+wklitam2VCrKa1BVP8pWYVJMq1I\/Y="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShakepayApp.pdb": "sha256-mQKuveMQN9U\/TVWlKCtR65vFPz0x0pRdILhyjQdRnaE="
+      "ShakepayApp.pdb": "sha256-r5cufgWWnNyjrwelKMx4wzbfUOp1iXL1qbaCm9zg4yg="
     },
     "runtime": {
       "dotnet.6.0.0-rc.2.21480.5.xu9v9h6sdp.js": "sha256-ljR5MRt9dbULozmn966bdMSj6Yym9CHBnk6PffK+rF0=",

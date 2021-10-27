@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4qmtRQ4Laq66TDeDgmTkeUGTUL7mW5kD0QK28i4pCkvWbjPU8PP6oyfrA4gRUS/U2GUTOlXfefEmQ47Qqe+6IA==",
+  "dgSpecHash": "m3KZ9Dfoh5jIENDKrzEK3wwRQY70OkpcxUZG97wi5iplfqn8uq6lqHz+v/VHftY9CnugGnZXl1+MH/43YHPZHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\ShakepayApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\chartjs.blazor.fork.2.0.2.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.authorization.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.components.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.components.analyzers.6.0.0-rc.2.21480.10.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.components.webassembly.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.components.webassembly.devserver.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.metadata.6.0.0-rc.2.21480.10.nupkg.sha512",
+    "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0-rc.2.21480.5\\microsoft.extensions.configuration.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-rc.2.21480.5\\microsoft.extensions.configuration.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0-rc.2.21480.5\\microsoft.extensions.configuration.binder.6.0.0-rc.2.21480.5.nupkg.sha512",

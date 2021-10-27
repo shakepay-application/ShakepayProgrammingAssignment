@@ -1,0 +1,63 @@
+﻿@page "/chart"
+@inject IJSRuntime JSRuntime
+@inject ShakepayApiService ShakepayApiService
+@using ChartJs.Blazor.LineChart
+<PageTitle>Graph</PageTitle>
+
+<h1>Graph</h1>
+<p>Ran out of time configuring dataset.</p>
+<div>
+  <Chart Config="_config" @ref="_chart"></Chart>
+</div>
+
+
+@code {
+    private LineConfig _config;
+    private Chart _chart;
+    protected override async Task OnInitializedAsync()
+    {
+        _config = new LineConfig
+            {
+                Options = new LineOptions
+                {
+                    Responsive = true,
+                    Title = new OptionsTitle
+                    {
+                        Display = true,
+                        Text = "Net Worth over time"
+                    },
+                    Scales = new Scales
+                    {
+                        XAxes = new List<CartesianAxis>
+                    {
+                        new CategoryAxis
+                        {
+                            ScaleLabel = new ScaleLabel
+                            {
+                                LabelString = "Time"
+                            }
+                        }
+                    },
+                        YAxes = new List<CartesianAxis>
+                    {
+                        new LinearCartesianAxis
+                        {
+                            ScaleLabel = new ScaleLabel
+                            {
+                                LabelString = "Value"
+                            }
+                        }
+                    }
+                    }
+                }
+            };
+            //IDataset<int> dataset1 = new LineDataset<decimal>(await(ShakepayApiService.GetNetWorthOverTime()).Select(w => w.Worth).ToList())
+            //{
+            //    Label = "My first dataset",
+            //    BackgroundColor = ColorUtil.FromDrawingColor(System.DrChartColors.Red),
+            //    BorderColor = ColorUtil.FromDrawingColor(ChartColors.Red),
+            //    Fill = FillingMode.Disabled
+            //};
+
+    }
+}

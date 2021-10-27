@@ -814,8 +814,11 @@ C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ref\ShakepayApp.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.pdb
-C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\build-gz\pKmEuICX.gz
+C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\wwwroot\_framework\ChartJs.Blazor.dll
+C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\wwwroot\_framework\ChartJs.Blazor.dll.gz
+C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\ChartJs.Blazor.dll
+C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\build-gz\tf9Yvi5t.gz

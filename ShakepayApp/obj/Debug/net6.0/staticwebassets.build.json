@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LWoOp/Fhc1V6oBRnulpMYc6G6M92+qWEp3yZpgCNkuM=",
+  "Hash": "h11x2lkdG1cQjnJNdyf9HS60q2wPTuNW61sts6JxxxA=",
   "Source": "ShakepayApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "SourceId": "ShakepayApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "ChartJsBlazorInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "SourceId": "ChartJs.Blazor.Fork",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor.Fork",
+      "RelativePath": "ChartJsBlazorInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+    },
     {
       "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "ShakepayApp",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\nsalt\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.0-rc.2.21480.10\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ChartJs.Blazor.dll",
+      "SourceId": "ShakepayApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ChartJs.Blazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\nsalt\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\lib\\netstandard2.1\\ChartJs.Blazor.dll"
     },
     {
       "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.0-rc.2.21480.5.xu9v9h6sdp.js",
@@ -6120,6 +6171,23 @@
       "OriginalItemSpec": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
     },
     {
+      "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\obj\\Debug\\net6.0\\build-gz\\tf9Yvi5t.gz",
+      "SourceId": "ShakepayApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ChartJs.Blazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ChartJs.Blazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ChartJs.Blazor.dll"
+    },
+    {
       "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\obj\\Debug\\net6.0\\build-gz\\TkTMzGNz.gz",
       "SourceId": "ShakepayApp",
       "SourceType": "Computed",
@@ -7121,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\wwwroot\\js\\chart.js",
+      "SourceId": "ShakepayApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nsalt\\dev\\temp\\ShakepayProgrammingAssignment\\ShakepayApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/chart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chart.js"
     }
   ]
 }

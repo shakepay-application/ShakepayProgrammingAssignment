@@ -1,0 +1,52 @@
+﻿@page "/"
+@using ShakepayApp.Services
+@inject ShakepayApiService ShakepayApiService
+
+<PageTitle>Graph</PageTitle>
+
+<h1>Table</h1>
+
+@if (netWorthOverTime is not null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Net Worth (CAD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var netWorth in netWorthOverTime)
+            {
+                <tr>
+                    <td>@netWorth.Date</td>
+                    <td>$@(Decimal.Round(netWorth.Worth, 2))</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+}
+
+@code{
+    private List<NetWorth>? netWorthOverTime;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            netWorthOverTime = await ShakepayApiService.GetNetWorthOverTime();
+            StateHasChanged();
+        }
+
+    }
+
+    }
+
+    
