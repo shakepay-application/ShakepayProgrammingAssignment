@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Release\net6.0\browser-wasm\publish\</_PublishTargetUrl>
-    <History>True|2021-10-26T20:13:18.4093734Z;</History>
+    <History>True|2021-10-28T19:19:39.5475141Z;True|2021-10-28T15:09:23.5604195-04:00;True|2021-10-28T15:04:01.9744674-04:00;True|2021-10-26T20:33:14.9791072-04:00;True|2021-10-26T16:13:18.4093734-04:00;</History>
   </PropertyGroup>
 </Project>

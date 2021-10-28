@@ -1,11 +1,10 @@
-﻿@page "/chart"
+﻿    @page "/chart"
 @inject IJSRuntime JSRuntime
 @inject ShakepayApiService ShakepayApiService
 @using ChartJs.Blazor.LineChart
 <PageTitle>Graph</PageTitle>
 
 <h1>Graph</h1>
-<p>Ran out of time configuring dataset.</p>
 <div>
   <Chart Config="_config" @ref="_chart"></Chart>
 </div>
@@ -51,13 +50,16 @@
                     }
                 }
             };
-            //IDataset<int> dataset1 = new LineDataset<decimal>(await(ShakepayApiService.GetNetWorthOverTime()).Select(w => w.Worth).ToList())
-            //{
-            //    Label = "My first dataset",
-            //    BackgroundColor = ColorUtil.FromDrawingColor(System.DrChartColors.Red),
-            //    BorderColor = ColorUtil.FromDrawingColor(ChartColors.Red),
-            //    Fill = FillingMode.Disabled
-            //};
+            var netWorths = await ShakepayApiService.GetNetWorthOverTime();
+            IDataset<decimal> dataset1 = new LineDataset<decimal>(netWorths.Select(w => Decimal.Round(w.Worth,2)).ToList())
+            {
+                Label = "Net Worth",
+                BackgroundColor = ColorUtil.ColorHexString(255, 255, 255),
+                BorderColor = ColorUtil.ColorHexString(0, 159, 255),
+                Fill = FillingMode.Disabled
+            };
+            (_config.Data.Labels as List<string>).AddRange(netWorths.Select(nw => nw.Date.ToShortDateString()).ToList());
+            _config.Data.Datasets.Add(dataset1);
 
     }
 }

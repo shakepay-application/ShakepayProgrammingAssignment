@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@page "/table"
 @using ShakepayApp.Services
 @inject ShakepayApiService ShakepayApiService
 
@@ -8,7 +8,7 @@
 
 @if (netWorthOverTime is not null)
 {
-    <table class="table">
+    <table class="table" id="shake-table">
         <thead>
             <tr>
                 <th scope="col">Date</th>
@@ -20,7 +20,7 @@
             {
                 <tr>
                     <td>@netWorth.Date</td>
-                    <td>$@(Decimal.Round(netWorth.Worth, 2))</td>
+                    <td>$@(Decimal.Round(netWorth.Worth, 2).ToString("0,0.00"))</td>
                 </tr>
             }
         </tbody>

@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-vufnB9+CYNNnVlR4\/MRJapLbBYvJ6xuMCjFhDmnPbPY=",
       "netstandard.dll": "sha256-StOrTHhWKdYtJ6nIw\/fy6MNGa9NDSMytdscAsxWoZOw=",
       "System.Private.CoreLib.dll": "sha256-z4\/pWSLqu6D+2Jx+IaEuLhAdBmVdCZ3OPQBgj8KbicY=",
-      "ShakepayApp.dll": "sha256-07+TII9U9B3B6+wklitam2VCrKa1BVP8pWYVJMq1I\/Y="
+      "ShakepayApp.dll": "sha256-\/17ipmtlelgcK55OxeE0yMXYgqdoFu2qsUYsYK0cOVU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShakepayApp.pdb": "sha256-r5cufgWWnNyjrwelKMx4wzbfUOp1iXL1qbaCm9zg4yg="
+      "ShakepayApp.pdb": "sha256-7DA82cgaEI4cTtM3j2kD7QEjf1dcG9catHMiBC7iBLM="
     },
     "runtime": {
       "dotnet.6.0.0-rc.2.21480.5.xu9v9h6sdp.js": "sha256-ljR5MRt9dbULozmn966bdMSj6Yym9CHBnk6PffK+rF0=",

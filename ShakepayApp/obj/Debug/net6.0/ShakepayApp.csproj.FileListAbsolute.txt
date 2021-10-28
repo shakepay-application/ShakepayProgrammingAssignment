@@ -810,7 +810,6 @@ C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\scopedcss\bundle\ShakepayApp.styles.css
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\scopedcss\projectbundle\ShakepayApp.bundle.scp.css
-C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.csproj.CopyComplete
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ref\ShakepayApp.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.pdb
@@ -822,3 +821,4 @@ C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\wwwroot\_framework\ChartJs.Blazor.dll.gz
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\bin\Debug\net6.0\ChartJs.Blazor.dll
 C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\build-gz\tf9Yvi5t.gz
+C:\Users\nsalt\dev\temp\ShakepayProgrammingAssignment\ShakepayApp\obj\Debug\net6.0\ShakepayApp.csproj.CopyComplete

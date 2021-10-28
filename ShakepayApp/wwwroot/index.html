@@ -24,6 +24,12 @@
     <!-- This is the glue between Blazor and Chart.js -->
     <script src="_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        $(document).ready(function () {
+            $('#shake-table').DataTable();
+            $('.dataTables_length').addClass('bs-select');
+        });
+    </script>
 </body>
 
 </html>
